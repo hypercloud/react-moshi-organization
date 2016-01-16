@@ -1,0 +1,48 @@
+{
+  "name": "react-moshi-organization",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercloud/react-moshi-organization.git"
+  },
+  "keywords": [
+    "Schema.org",
+    "JSON-LD",
+    "RDFa",
+    "Microdata",
+    "Structured-data"
+  ],
+  "author": "HyperCloud Studio <info@nodeunify.com>",
+  "contributors": [
+    "Junxiang Wei",
+    "Zengliang He"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypercloud/react-moshi-organization/issues"
+  },
+  "homepage": "https://github.com/hypercloud/react-moshi-organization#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.15.0",
+    "jspm": "^0.16.23"
+  },
+  "jspm": {
+    "dependencies": {
+      "hypercloud/react-moshi-thing": "github:hypercloud/react-moshi-thing@master"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
