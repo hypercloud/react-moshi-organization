@@ -7,3 +7,11 @@ Moshi snippet can be used in any React application
 ```
 import MoshiOrganization from 'react-moshi-organization'
 ```
+
+### How to build a demo
+
+```
+npm install
+jspm install
+gulp demo
+```

@@ -18,6 +18,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
     "hypercloud/react-moshi-thing": "github:hypercloud/react-moshi-thing@master",
+    "react": "npm:react@0.14.6",
+    "react-dom": "npm:react-dom@0.14.6",
     "github:hypercloud/react-moshi-thing@master": {
       "jsonld": "npm:jsonld@0.4.4",
       "react": "npm:react@0.14.6"
@@ -135,6 +137,9 @@ System.config({
     "npm:promise@7.1.1": {
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
+    },
+    "npm:react-dom@0.14.6": {
+      "react": "npm:react@0.14.6"
     },
     "npm:react@0.14.6": {
       "envify": "npm:envify@3.4.0",
