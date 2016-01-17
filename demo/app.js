@@ -10,7 +10,7 @@ import ReactDOM from 'react-dom';
 
 import MoshiOrganization from '../lib/MoshiOrganization';
 
-let thing = {
+let data = {
   '@context': 'http://schema.org/',
   '@type': 'Person',
   'name': 'Jane Doe',
@@ -27,6 +27,6 @@ let thing = {
 };
 
 ReactDOM.render(
-  <MoshiOrganization thing={thing}/>,
+  <MoshiOrganization data={data}/>,
   document.getElementById('app')
 );
