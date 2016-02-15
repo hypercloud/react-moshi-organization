@@ -1,4 +1,4 @@
-# React-Moshi-Oranization
+# React-Moshi-Oranization (Deprecated)
 React snippet for organization class of schema.org.
 
 ## Usage
